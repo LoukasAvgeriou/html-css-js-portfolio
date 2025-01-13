@@ -226,6 +226,16 @@ section {
 .icon {
     cursor: pointer;
     height: 2rem;
+    mix-blend-mode: normal;
+    /* color: #F5EFE7; */
+
+    filter: invert(90%) sepia(6%) saturate(945%) hue-rotate(321deg) brightness(111%) contrast(92%);
+
+}
+
+.icon:hover {
+    /* color: #0e1c33; */
+    filter: invert(8%) sepia(75%) saturate(891%) hue-rotate(188deg) brightness(93%) contrast(97%);
 }
 
 /* BUTTONS */
