@@ -184,11 +184,17 @@ section {
 }
 
 .profile-pic {
-    height: 400px;
-    width: 400px;
+    height: 150px;
+    width: 150px;
     object-fit: cover;
     border-radius: 200px;
     object-position: top right;
+}
+
+.name-and-photo-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
 .section__text {
@@ -306,7 +312,6 @@ section {
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
 }
 
 .about-details-container {
@@ -317,6 +322,13 @@ section {
 .about-containers,
 .about-details-container {
     display: flex;
+    align-items: center;
+}
+
+.coming-soon {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 50px;
 }
 
 .about-pic {
@@ -330,6 +342,7 @@ section {
 }
 
 .details-container {
+    height: 130px;
     padding: 1.5rem;
     flex: 1;
     background: white;
